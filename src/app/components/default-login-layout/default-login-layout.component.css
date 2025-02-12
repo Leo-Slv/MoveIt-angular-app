@@ -24,9 +24,45 @@ section{
 
 .form-section{
   flex-grow: 0.3;
+  padding: 0 35px;
 }
 
 .form-section h2 {
   font-size: 20px;
   font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.form-section img {
+  margin-bottom: 30px;
+}
+
+button{
+  width:100%;
+  border-radius:8px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  background: transparent;
+  padding: 12px 24px;
+}
+
+button.btn-primary{
+  background-color: var(--primary-color);
+  color: white;
+  box-shadow:0px 8px 12px rgba(148.23004603385925, 64.33935597538948, 255, 0.20000000298023224);
+}
+
+button.btn-secondary{
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap:30px;
 }
