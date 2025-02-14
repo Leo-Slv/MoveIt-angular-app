@@ -45,6 +45,7 @@ button{
   border: none;
   background: transparent;
   padding: 12px 24px;
+  cursor: pointer;
 }
 
 button.btn-primary{
@@ -65,4 +66,22 @@ button.btn-secondary{
   justify-content: center;
   width: 100%;
   gap:30px;
+}
+
+.divider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  font-size: 14px;
+  color: var(--gray-bg);
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.divider div{
+  height: 2px;
+  flex-grow: 1;
+  background-color: var(--gray-bg);
 }
