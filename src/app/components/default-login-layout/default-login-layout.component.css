@@ -59,6 +59,10 @@ button.btn-secondary{
   color: var(--primary-color);
 }
 
+button:disabled{
+  opacity: 0.8;
+}
+
 .btn-wrapper{
   display: flex;
   flex-direction: column;
